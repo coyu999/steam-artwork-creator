@@ -1,3 +1,5 @@
 <Solution>
-  <Project Path="steamprofile/steamprofile.csproj" />
+  <Project Path="steamprofile/steamprofile.csproj">
+    <BuildType Project="Release" />
+  </Project>
 </Solution>

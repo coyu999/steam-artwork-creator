@@ -124,7 +124,10 @@ namespace steamprofile
         {
             string background = tbBackground.Text.Replace("Background: ", "");
             string overlay = tbOverlay.Text.Replace("Overlay: ", "");
-            string outputFolder = AppDomain.CurrentDomain.BaseDirectory;
+            OpenFolderDialog folderDialog = new OpenFolderDialog();
+            folderDialog.Title = "Select desired output location";
+            bool? success = folderDialog.ShowDialog();
+            string outputFolder = folderDialog.FolderName;
 
             if (!File.Exists(background))
             {

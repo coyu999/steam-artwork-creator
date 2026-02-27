@@ -1,4 +1,4 @@
-# Steam Profile Image Cropper
+# Steam Profile Artwork Creator
 
 A WPF Application for automating the process of creating steam profile artwork (artwork to be used as a showcase on your profile that combines your background with a overlay of a image/character)
 

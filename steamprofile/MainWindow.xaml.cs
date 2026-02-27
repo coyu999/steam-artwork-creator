@@ -14,6 +14,8 @@ namespace steamprofile
         public MainWindow()
         {
             InitializeComponent();
+            string ffmpegFolder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ffmpeg");
+            GlobalFFOptions.Configure(options => options.BinaryFolder = ffmpegFolder);
         }
 
         private void btnSelect_Click(object sender, RoutedEventArgs e)
@@ -143,8 +145,8 @@ namespace steamprofile
                 ? Path.Combine(outputFolder, "composited.mkv")
                 : Path.Combine(outputFolder, "composited" + bgExt);
 
-            string output1 = Path.Combine(outputFolder, "crop1" + bgExt);
-            string output2 = Path.Combine(outputFolder, "crop2" + bgExt);
+            string output1 = Path.Combine(outputFolder, "main_panel" + bgExt);
+            string output2 = Path.Combine(outputFolder, "right_panel" + bgExt);
 
             string palette1 = Path.Combine(outputFolder, "palette1.png");
             string palette2 = Path.Combine(outputFolder, "palette2.png");

@@ -6,12 +6,24 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>View\Assets\icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ffmpeg\ffmpeg.exe" />
+    <None Remove="ffmpeg\ffprobe.exe" />
     <None Remove="View\Assets\icon.ico" />
     <None Remove="View\Fonts\JuliusSansOne-Regular.ttf" />
     <None Remove="View\Fonts\Pointless.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ffmpeg\ffmpeg.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ffmpeg\ffprobe.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>

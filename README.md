@@ -19,8 +19,8 @@ A WPF Application for automating the process of creating steam profile artwork (
 3. Preview images in the app.
 4. Click **Crop** to generate two cropped sections for your Steam profile.
 5. Cropped images are saved in the application directory as:
-   - crop1.png / crop1.gif
-   - crop2.png / crop2.gif
+   - main_panel.png / main_panel.gif
+   - right_panel.png / right_panel.gif
 
 ---
 

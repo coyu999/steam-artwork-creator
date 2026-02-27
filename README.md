@@ -16,8 +16,10 @@ A WPF Application for automating the process of creating steam profile artwork (
 ## 🚀 Installation
 
 1. **Clone the repository**
-   git clone https://github.com/coyu999/steam-artwork-creator.git
-   cd steam-artwork-creator
+   ```bash
+      git clone https://github.com/coyu999/steam-artwork-creator.git
+      cd steam-artwork-creator
+   ```
 
 2. **Open in Visual Studio**
    - Open steamprofile.slnx

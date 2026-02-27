@@ -8,25 +8,7 @@ A WPF Application for automating the process of creating steam profile artwork (
 
 - Windows OS
 - .NET 6 or later
-- FFmpeg installed or included in the application folder
 - Visual Studio 2022 or later (for building from source)
-
----
-
-## 🚀 Installation
-
-1. **Clone the repository**
-   ```bash
-      git clone https://github.com/coyu999/steam-artwork-creator.git
-      cd steam-artwork-creator
-   ```
-
-2. **Open in Visual Studio**
-   - Open steamprofile.slnx
-   - Restore NuGet packages (FFMpegCore, WpfAnimatedGif)
-
-3. **Build and run**
-   - Press F5 to run the application
 
 ---
 

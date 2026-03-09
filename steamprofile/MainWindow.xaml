@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:steamprofile"
-        mc:Ignorable="d" WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        mc:Ignorable="d" WindowStyle="None"
         Background="#F0F0F0" Icon="pack://application:,,,/View/Assets/icon.ico"
         Title="MainWindow" Height="450" Width="800">
     <WindowChrome.WindowChrome>
@@ -63,7 +63,7 @@
             <RowDefinition Height="50"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Rectangle Grid.Row="0" Fill="#282828"/>
+        <Rectangle Grid.Row="0" Fill="#282828" MouseLeftButtonDown="DragWindow_MouseLeftButtonDown"/>
 
         <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
